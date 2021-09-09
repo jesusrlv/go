@@ -9,9 +9,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Demo GO',
       theme: ThemeData(
-        primarySwatch: Colors.orange,
+        // primarySwatch: Colors.orange,
+        primaryColor: Colors.white,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       //home: MyHomePage(title: 'Flutter Demo Home Page'),
@@ -29,18 +30,18 @@ class GoApp extends StatelessWidget {
       appBar: AppBar(
         // title: Text("GoApp"),
         title: Image.asset(
-          "assets/images/1.png",
-          height: 50.0,
+          "assets/images/logo_go.png",
+          height: 36.0,
         ),
-        actions: [
-          Icon(Icons.search),
-          Icon(Icons.chat),
-          Icon(Icons.schedule),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 12.0),
-            child: Icon(Icons.dehaze),
-          )
-        ],
+        // actions: [
+        //   Icon(Icons.search),
+        //   Icon(Icons.chat),
+        //   Icon(Icons.schedule),
+        //   Padding(
+        //     padding: const EdgeInsets.symmetric(horizontal: 12.0),
+        //     child: Icon(Icons.dehaze),
+        //   )
+        // ],
       ),
     );
   }
